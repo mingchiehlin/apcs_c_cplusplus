@@ -9,6 +9,6 @@ int main() {
     printf("A - B=%d \n", a-b);
     printf("A * B=%d \n", a*b);
     printf("A / B=%d \n", a/b);
-    printf("A % B=%d \n", a%b);
+    printf("A %% B=%d \n", a%b);
     return 0;
 }
