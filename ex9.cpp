@@ -15,5 +15,5 @@ int main(void){
 	bool_value = (x < 5 || x > 10);	
 	printf(" x < 5 ||  x > 10 ==> %d \n ",bool_value);	
 	bool_value = !(x < 5 || x > 10);	
-	printf(" !(x < 5 ||  x > 10) ==> %d \n ",bool_value);	
+	printf(" !(x < 5 &&  x > 10) ==> %d \n ",bool_value);	
 }
