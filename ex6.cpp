@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, x, y, sum, diff, product, ratio, mod, plusplusx, xplusplus, minusminusx, xminusminus;
+    int a, b, x, y, sum, diff, product, ratio, mod, plusplusx, xplusplus, minusminusy, yminusminus;
     a = 20;
     b = 7;
     x = a;
@@ -16,8 +16,8 @@ int main() {
     mod = x % y;
     plusplusx = ++x;
     xplusplus = x++;
-    minusminusx = --x;
-    xminusminus = x--;
+    minusminusy = --y;
+    yminusminus = y--;
  
     printf("sum = %d,", sum);
     printf("diff = %d,", diff);
@@ -26,8 +26,9 @@ int main() {
     printf("mod = %d,", mod);
     printf("plusplusx = %d,", plusplusx);
     printf("xplusplus = %d,", xplusplus);
-    printf("minusminusx = %d,", minusminusx);
-    printf(" xminusminus = %d.",  xminusminus);
+    printf("minusminusy = %d,", minusminusy);
+    printf(" yminusminus = %d.",  yminusminus);
     
     return 0;
 }
+
