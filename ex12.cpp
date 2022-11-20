@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-	float r, area;
+	double r, area;
 	printf("please input a radius: \n");
-	scanf("%f", &r);
-	printf("The radius is %f \n", r);
+	scanf("%lf", &r);
+	printf("The radius is %lf \n", r);
 	if (r >= 0.0){
 	    area=3.14159*r*r;
 		printf("The area of the circle is %lf \n", area);
