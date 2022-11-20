@@ -18,7 +18,7 @@ if (i%4==0){
     }    
 else{
     printf("It is not a Leap Year! \n");
-        if ((j==1)||(j==3)||(j==5)||(j==7)||(j==8)||(j==10)||(j==12)){
+    if ((j==1)||(j==3)||(j==5)||(j==7)||(j==8)||(j==10)||(j==12)){
     printf("The number of days in the month is 31.");
     }
     else if ((j==4)||(j==6)||(j==9)||(j==11)){
